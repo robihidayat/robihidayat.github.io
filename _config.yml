@@ -4,12 +4,12 @@
 
 # Site
 title: Robi Hidayat
-subtitle:
-description:
-keywords:
+subtitle: test site for documentation
+description: helo helow
+keywords: asw
 author: robihidayat
-language:
-timezone:
+language: ID
+timezone: JKT
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -79,4 +79,6 @@ theme: light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/robihidayat/robihidayat.github.io
+  repo: https://github.com/robihidayat/robihidayat.github.io.git
+  branch: master
+  message: hexo deploy
