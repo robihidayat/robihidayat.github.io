@@ -95,12 +95,14 @@ smtp_use_tls=yes
 smtp_tls_security_level=encrypt
 tls_random_source=dev:/dev/urandom
 </code></pre><h2 id="Create-sasl-passwd-file"><a href="#Create-sasl-passwd-file" class="headerlink" title="Create sasl_passwd file"></a>Create sasl_passwd file</h2><p>jalankan code dibawah untuk membuat password. </p>
-<p>~sudo sh -c ‘echo “\n[smtp.gmail.com]:587 <a href="mailto:your_email@gmail.com" target="_blank" rel="noopener">your_email@gmail.com</a>:your_password” &gt;&gt; /etc/postfix/sasl_passwd’</p>
-<p>Replace <a href="mailto:your_email@gmail.com" target="_blank" rel="noopener">your_email@gmail.com</a> and your_password with actual values.</p>
-<p>~$ sudo postmap /etc/postfix/sasl_passwd</p>
-<h2 id="Autorun-postfix-on-boot-and-restart-postfix"><a href="#Autorun-postfix-on-boot-and-restart-postfix" class="headerlink" title="Autorun postfix on boot and restart postfix"></a>Autorun postfix on boot and restart postfix</h2><p>sudo cp /System/Library/LaunchDaemons/com.apple.postfix.master.plist /Library/LaunchDaemons/org.postfix.custom.plist</p>
-<p>~sudo vi /Library/LaunchDaemons/org.postfix.custom.plist</p>
-<p>Change the label value from com.apple.postfix.master to org.postfix.custom Remove these lines to prevent exiting after 60s</p>
+<pre><code>$ sudo sh -c &apos;echo &quot;\n[smtp.gmail.com]:587 your_email@gmail.com:your_password&quot; &gt;&gt; /etc/postfix/sasl_passwd&apos;
+</code></pre><p>Replace <a href="mailto:your_email@gmail.com" target="_blank" rel="noopener">your_email@gmail.com</a> and your_password with actual values.</p>
+<pre><code>$ sudo postmap /etc/postfix/sasl_passwd
+</code></pre><h2 id="Autorun-postfix-on-boot-and-restart-postfix"><a href="#Autorun-postfix-on-boot-and-restart-postfix" class="headerlink" title="Autorun postfix on boot and restart postfix"></a>Autorun postfix on boot and restart postfix</h2><pre><code>sudo cp /System/Library/LaunchDaemons/com.apple.postfix.master.plist /Library/LaunchDaemons/org.postfix.custom.plist
+
+
+sudo vi /Library/LaunchDaemons/org.postfix.custom.plist
+</code></pre><p>Change the label value from com.apple.postfix.master to org.postfix.custom Remove these lines to prevent exiting after 60s</p>
 <pre><code>&lt;string&gt;-e&lt;/string&gt;
 &lt;string&gt;60&lt;/string&gt;
 </code></pre><p>Add these lines before </p>
