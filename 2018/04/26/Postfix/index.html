@@ -7,7 +7,16 @@
   <meta name="author" content="robihidayat">
   
   <meta name="description" content="This is tutorial for set up Postfix in macos
-prerequiredSaya anggap kalian sudah menginstall Postfix di environment kalian, jika belum, bisa baca ini ">
+prerequiredSaya anggap kalian sudah menginstall Postfix di environment kalian, jika belum, bisa baca ini untuk menginstall Postfix di lokal enviroment kalian.adapun tool yang dibutuhkan adalah :
+
+Postfix
+vi (atau text editor kesukaanmu)
+
+Check Postfix 
+bagaimana caranya mengecek kalau kita sudah meng install Postfix atau belum ? bisa di cek di cmd bila sudah ter install. 
+$ postfix
+postfix: error: to submit mail, use the Postfix sendmail command
+postfix: fatal: the postfix command is reserved for the superuser">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -73,7 +82,8 @@ prerequiredSaya anggap kalian sudah menginstall Postfix di environment kalian, j
 <pre><code>$ postfix
 postfix: error: to submit mail, use the Postfix sendmail command
 postfix: fatal: the postfix command is reserved for the superuser
-</code></pre><h2 id="Edit-postfix-configuration-file"><a href="#Edit-postfix-configuration-file" class="headerlink" title="Edit postfix configuration file"></a>Edit postfix configuration file</h2><p>setelah Postfix sudah terinstall maka sekarang giliran untuk configure Postfixnya. </p>
+</code></pre><a id="more"></a>
+<h2 id="Edit-postfix-configuration-file"><a href="#Edit-postfix-configuration-file" class="headerlink" title="Edit postfix configuration file"></a>Edit postfix configuration file</h2><p>setelah Postfix sudah terinstall maka sekarang giliran untuk configure Postfixnya. </p>
 <pre><code>$ sudo vi /etc/postfix/main.cf
 </code></pre><p>pastikan bahwa variabel dibawah tersebut ada pada file main.cf. </p>
 <pre><code>mail_owner = _postfix
