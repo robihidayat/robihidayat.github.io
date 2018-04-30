@@ -20,7 +20,7 @@ bagaimana caranya mengecek kalau kita sudah meng install Postfix atau belum ? bi
     postfix: error: to submit mail, use the Postfix sendmail command
     postfix: fatal: the postfix command is reserved for the superuser
 
-
+<!-- more -->
 ## Edit postfix configuration file
 
 setelah Postfix sudah terinstall maka sekarang giliran untuk configure Postfixnya. 
@@ -56,19 +56,19 @@ kemudian tambahkan configure pada akhir.
 
 jalankan code dibawah untuk membuat password. 
 
-~sudo sh -c 'echo "\n[smtp.gmail.com]:587 your_email@gmail.com:your_password" >> /etc/postfix/sasl_passwd'
+    $ sudo sh -c 'echo "\n[smtp.gmail.com]:587 your_email@gmail.com:your_password" >> /etc/postfix/sasl_passwd'
 
 Replace your_email@gmail.com and your_password with actual values.
 
 
-~$ sudo postmap /etc/postfix/sasl_passwd
+    $ sudo postmap /etc/postfix/sasl_passwd
 
 ## Autorun postfix on boot and restart postfix
 
-sudo cp /System/Library/LaunchDaemons/com.apple.postfix.master.plist /Library/LaunchDaemons/org.postfix.custom.plist
+    sudo cp /System/Library/LaunchDaemons/com.apple.postfix.master.plist /Library/LaunchDaemons/org.postfix.custom.plist
 
 
-~sudo vi /Library/LaunchDaemons/org.postfix.custom.plist
+    sudo vi /Library/LaunchDaemons/org.postfix.custom.plist
 
 Change the label value from com.apple.postfix.master to org.postfix.custom Remove these lines to prevent exiting after 60s
 
