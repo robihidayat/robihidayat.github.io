@@ -13,7 +13,6 @@ Terus kalo misal masih SD, masih SMP atau SMA,
 kita bisa gak sih belajar  ngoding. 
 Ya nanti akan gw bahas satu persatu. 
 
-<<<<<<< HEAD
 Apa sih Programmer itu ?
 
 <!-- more -->
