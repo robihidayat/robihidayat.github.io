@@ -13,9 +13,14 @@ Terus kalo misal masih SD, masih SMP atau SMA,
 kita bisa gak sih belajar  ngoding. 
 Ya nanti akan gw bahas satu persatu. 
 
+<<<<<<< HEAD
 Apa sih Programmer itu ?
 
 <!-- more -->
+
+=======
+
+Apa sih Programmer itu ?
 
 Kalau dari Wikipedia pengertiannya kaya gini. 
 
@@ -24,7 +29,8 @@ Kalau dari Wikipedia pengertiannya kaya gini.
 
 disatu sisi gw berfikir bahwa: 
 
-    "programmer itu adalah seororang yang bisa melakukan problem solving 
+    "Kalo menurut gw programmer itu adalah 
+    seororang yang bisa melakukan problem solving 
     dengan logic secara efisien dan efektif dengan teknologi." - robi hidayat, 2018 
 
 
@@ -43,7 +49,8 @@ Mungkin gw bisa jelasin dengan gambar agar mudah dipahami.
 
 
 Effektif dan efisien itu artinya solusi yang kita buat itu lebih baik. 
-Misal lamanya waktu yang dibutuhkan bisa lebih cepat, dan resource atau sumber daya yang kita keluarkan sedikit. 
+Misal lamanya waktu yang dibutuhkan bisa lebih cepat, 
+dan resource atau sumber daya yang kita keluarkan sedikit. 
 Contohnya saya dari Jakarta ke Cirebon melakukan sebuah perjalanan. 
 Nah solusinya jika effektif dan efisien itu bila gw tiba dicirebon lebih cepat dan duit yang gw keluarin itu lebih dikit. 
 
@@ -52,4 +59,5 @@ Kemudian teknologi, teknologi tentunya sangat banyak.
 Mungkin dalam dunia programmer, bahasa adalah salah satunya. 
 Kalian bisa pilih teknologi apa yang cocok untuk solusi yang telah kalian buat. 
 Dalam hal ini gw sebut bahasa program. Misal Java, Javascript, PHP, Ruby, python dll. 
-Ada banyak, dan gak usah bingung. Yang penting kalian mengerti dengan solusi yang sudah kalian buat, tuntutan logic yang udah kalian buat dan Happy code.
+Ada banyak, dan gak usah bingung. Yang penting kalian mengerti 
+dengan solusi yang sudah kalian buat, tuntutan logic yang udah kalian buat dan Happy code.
