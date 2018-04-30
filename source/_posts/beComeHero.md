@@ -3,8 +3,9 @@ title: be come hero code Part 1
 date: 2018-04-30 08:07:58
 tags:
 ---
+# Programmer, Wow !
 
-<img style="display: inline;" src="/images/programming.jpg">
+<img style="display: inline;" src="/images/becomeHeroPart1/programming.jpg">
 
 Sebelum kita mulai belajar ngoding, 
 Ada baiknya kita kenalan dulu. Apa sih  programmer itu, 
