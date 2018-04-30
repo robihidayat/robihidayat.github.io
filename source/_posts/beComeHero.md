@@ -4,7 +4,7 @@ date: 2018-04-30 08:07:58
 tags:
 ---
 
-<img style="display: inline;" src="/images/programming.png">
+<img style="display: inline;" src="/images/programming.jpg">
 
 Sebelum kita mulai belajar ngoding, 
 Ada baiknya kita kenalan dulu. Apa sih  programmer itu, 
