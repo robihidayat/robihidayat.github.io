@@ -1,5 +1,5 @@
 ---
-title: be come hero code Part 2
+title: become hero code Part 2
 date: 2018-04-30 08:40:06
 tags:
 ---

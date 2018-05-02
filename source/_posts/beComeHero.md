@@ -1,5 +1,5 @@
 ---
-title: be come hero code Part 1
+title: become hero code Part 1
 date: 2018-04-30 08:07:58
 tags:
 ---
@@ -17,8 +17,6 @@ Ya nanti akan gw bahas satu persatu.
 Apa sih Programmer itu ?
 
 <!-- more -->
-
-=======
 
 Apa sih Programmer itu ?
 
@@ -43,9 +41,8 @@ Logic itu apa ? Kalau bahasa Indonesia nya ya logika.
 Ya kalian bisa cari sendiri apa arti logika. Disini programmer akan banyak berfikir secara logic. 
 Seperti "if than else", ya itu adalah salah satu logika sederhana. 
 "If" adalah kondisi atau syarat dilakukannya kegiatan, "than" adalah instruksi yang akan dijalankan, 
-"else" adalah kondisi yang dijalankan bila pada kondisi pertama tidak terpenuhi. Wah bingung kan ? 
-Kalau masih bingung, hiraukan saja. Karena masih pendahuluan. 
-Mungkin gw bisa jelasin dengan gambar agar mudah dipahami.
+"else" adalah kondisi yang dijalankan bila pada kondisi pertama tidak terpenuhi. 
+bagaimana ? sudah bingung ? Semangat yah, karena ini masih permulaan.
 
 
 Effektif dan efisien itu artinya solusi yang kita buat itu lebih baik. 
